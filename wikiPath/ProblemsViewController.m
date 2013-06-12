@@ -36,8 +36,8 @@
     UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 44, 320, self.view.frame.size.height - 44)];
     [webView.scrollView setScrollEnabled:NO];
     webView.delegate = self;
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:5000"]]];
-//    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://pickalize.info:4000"]]];
+//    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:5000"]]];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://pickalize.info:4000"]]];
     // set current index
     
     
