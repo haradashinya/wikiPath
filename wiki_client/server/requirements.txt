@@ -1,0 +1,2 @@
+Flask>0.1
+Fabric>0.1
